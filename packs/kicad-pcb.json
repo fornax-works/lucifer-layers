@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "kicad-pcb",
+  "name": "KiCad — редактор плат",
+  "layer": "KICAD PCB",
+  "category": "Электроника",
+  "exe": [
+    "pcbnew.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "ROUTE",
+      "desc": "Трассировка",
+      "combo": "X"
+    },
+    {
+      "label": "MOVE",
+      "desc": "Переместить",
+      "combo": "M"
+    },
+    {
+      "label": "ROTATE",
+      "desc": "Повернуть",
+      "combo": "R"
+    },
+    {
+      "label": "DRAG",
+      "desc": "Тянуть с дорожками",
+      "combo": "D"
+    },
+    {
+      "label": "VIA",
+      "desc": "Переходное отверстие",
+      "combo": "V"
+    },
+    {
+      "label": "FLIP",
+      "desc": "На другую сторону",
+      "combo": "F"
+    },
+    {
+      "label": "FILL",
+      "desc": "Залить полигоны",
+      "combo": "B"
+    },
+    {
+      "label": "PROPS",
+      "desc": "Свойства",
+      "combo": "E"
+    },
+    {
+      "label": "DELETE",
+      "desc": "Удалить",
+      "combo": "Delete"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "LAYER-",
+      "desc": "Слой F.Cu",
+      "combo": "PageUp"
+    },
+    "press": {
+      "label": "ESC",
+      "desc": "Отмена",
+      "combo": "Esc"
+    },
+    "right": {
+      "label": "LAYER+",
+      "desc": "Слой B.Cu",
+      "combo": "PageDown"
+    }
+  }
+}

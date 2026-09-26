@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "resolve",
+  "name": "DaVinci Resolve",
+  "layer": "RESOLVE",
+  "category": "Видео",
+  "exe": [
+    "resolve.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "SELECT",
+      "desc": "Выделение",
+      "combo": "A"
+    },
+    {
+      "label": "BLADE",
+      "desc": "Лезвие",
+      "combo": "B"
+    },
+    {
+      "label": "SPLIT",
+      "desc": "Разрезать в точке",
+      "combo": "Ctrl+B"
+    },
+    {
+      "label": "IN",
+      "desc": "Точка входа",
+      "combo": "I"
+    },
+    {
+      "label": "PLAY",
+      "desc": "Воспроизвести",
+      "combo": "Space"
+    },
+    {
+      "label": "OUT",
+      "desc": "Точка выхода",
+      "combo": "O"
+    },
+    {
+      "label": "RIPDEL",
+      "desc": "Удалить со сдвигом",
+      "combo": "Shift+Backspace"
+    },
+    {
+      "label": "MARKER",
+      "desc": "Маркер",
+      "combo": "M"
+    },
+    {
+      "label": "UNDO",
+      "desc": "Отменить",
+      "combo": "Ctrl+Z"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "FRAME-",
+      "desc": "Кадр назад",
+      "combo": "Left"
+    },
+    "press": {
+      "label": "PLAY",
+      "desc": "Воспроизвести",
+      "combo": "Space"
+    },
+    "right": {
+      "label": "FRAME+",
+      "desc": "Кадр вперёд",
+      "combo": "Right"
+    }
+  }
+}

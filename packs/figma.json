@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "figma",
+  "name": "Figma",
+  "layer": "FIGMA",
+  "category": "Дизайн",
+  "exe": [
+    "figma.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "MOVE",
+      "desc": "Перемещение",
+      "combo": "V"
+    },
+    {
+      "label": "FRAME",
+      "desc": "Фрейм",
+      "combo": "F"
+    },
+    {
+      "label": "RECT",
+      "desc": "Прямоугольник",
+      "combo": "R"
+    },
+    {
+      "label": "ELLIPSE",
+      "desc": "Эллипс",
+      "combo": "O"
+    },
+    {
+      "label": "TEXT",
+      "desc": "Текст",
+      "combo": "T"
+    },
+    {
+      "label": "PEN",
+      "desc": "Перо",
+      "combo": "P"
+    },
+    {
+      "label": "GROUP",
+      "desc": "Сгруппировать",
+      "combo": "Ctrl+G"
+    },
+    {
+      "label": "AUTOLAY",
+      "desc": "Auto layout",
+      "combo": "Shift+A"
+    },
+    {
+      "label": "DUPLIC",
+      "desc": "Дублировать",
+      "combo": "Ctrl+D"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "ZOOM-",
+      "desc": "Отдалить",
+      "combo": "Ctrl+-"
+    },
+    "press": {
+      "label": "FIT",
+      "desc": "Показать всё",
+      "combo": "Shift+1"
+    },
+    "right": {
+      "label": "ZOOM+",
+      "desc": "Приблизить",
+      "combo": "Ctrl+="
+    }
+  }
+}

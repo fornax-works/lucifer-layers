@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "vscode",
+  "name": "Visual Studio Code",
+  "layer": "VSCODE",
+  "category": "Код",
+  "exe": [
+    "code.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "FILES",
+      "desc": "Быстро открыть файл",
+      "combo": "Ctrl+P"
+    },
+    {
+      "label": "CMDS",
+      "desc": "Палитра команд",
+      "combo": "Ctrl+Shift+P"
+    },
+    {
+      "label": "TERM",
+      "desc": "Терминал",
+      "combo": "Ctrl+`"
+    },
+    {
+      "label": "COMMENT",
+      "desc": "Закомментировать",
+      "combo": "Ctrl+/"
+    },
+    {
+      "label": "FORMAT",
+      "desc": "Форматировать",
+      "combo": "Shift+Alt+F"
+    },
+    {
+      "label": "SEARCH",
+      "desc": "Поиск по проекту",
+      "combo": "Ctrl+Shift+F"
+    },
+    {
+      "label": "DEFIN",
+      "desc": "К определению",
+      "combo": "F12"
+    },
+    {
+      "label": "DEBUG",
+      "desc": "Запуск / отладка",
+      "combo": "F5"
+    },
+    {
+      "label": "SIDEBAR",
+      "desc": "Боковая панель",
+      "combo": "Ctrl+B"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+PageUp"
+    },
+    "press": {
+      "label": "SAVE",
+      "desc": "Сохранить",
+      "combo": "Ctrl+S"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+PageDown"
+    }
+  }
+}

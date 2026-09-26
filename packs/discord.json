@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "discord",
+  "name": "Discord",
+  "layer": "DISCORD",
+  "category": "Общение",
+  "exe": [
+    "discord.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "MUTE",
+      "desc": "Микрофон вкл/выкл",
+      "combo": "Ctrl+Shift+M"
+    },
+    {
+      "label": "DEAFEN",
+      "desc": "Звук вкл/выкл",
+      "combo": "Ctrl+Shift+D"
+    },
+    {
+      "label": "FIND",
+      "desc": "Быстрый переход",
+      "combo": "Ctrl+K"
+    },
+    {
+      "label": "CHAN-",
+      "desc": "Канал выше",
+      "combo": "Alt+Up"
+    },
+    {
+      "label": "READ",
+      "desc": "Прочитано",
+      "combo": "Escape"
+    },
+    {
+      "label": "CHAN+",
+      "desc": "Канал ниже",
+      "combo": "Alt+Down"
+    },
+    {
+      "label": "UPLOAD",
+      "desc": "Загрузить файл",
+      "combo": "Ctrl+Shift+U"
+    },
+    {
+      "label": "PLAY",
+      "desc": "Пауза / воспроизведение",
+      "media": "play"
+    },
+    {
+      "label": "VOL+",
+      "desc": "Громче",
+      "media": "vol+"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "VOL-",
+      "desc": "Тише",
+      "media": "vol-"
+    },
+    "press": {
+      "label": "MUTE",
+      "desc": "Микрофон",
+      "combo": "Ctrl+Shift+M"
+    },
+    "right": {
+      "label": "VOL+",
+      "desc": "Громче",
+      "media": "vol+"
+    }
+  }
+}

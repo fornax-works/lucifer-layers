@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "photoshop",
+  "name": "Adobe Photoshop",
+  "layer": "PS",
+  "category": "Графика",
+  "exe": [
+    "photoshop.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "MOVE",
+      "desc": "Перемещение",
+      "combo": "V"
+    },
+    {
+      "label": "BRUSH",
+      "desc": "Кисть",
+      "combo": "B"
+    },
+    {
+      "label": "ERASER",
+      "desc": "Ластик",
+      "combo": "E"
+    },
+    {
+      "label": "MARQUEE",
+      "desc": "Выделение",
+      "combo": "M"
+    },
+    {
+      "label": "LASSO",
+      "desc": "Лассо",
+      "combo": "L"
+    },
+    {
+      "label": "TRANSF",
+      "desc": "Свободное трансформирование",
+      "combo": "Ctrl+T"
+    },
+    {
+      "label": "NEWLAYER",
+      "desc": "Новый слой",
+      "combo": "Ctrl+Shift+N"
+    },
+    {
+      "label": "DUPLIC",
+      "desc": "Дублировать слой",
+      "combo": "Ctrl+J"
+    },
+    {
+      "label": "UNDO",
+      "desc": "Отменить",
+      "combo": "Ctrl+Z"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "BRUSH-",
+      "desc": "Кисть меньше",
+      "combo": "["
+    },
+    "press": {
+      "label": "SWAP",
+      "desc": "Поменять цвета",
+      "combo": "X"
+    },
+    "right": {
+      "label": "BRUSH+",
+      "desc": "Кисть больше",
+      "combo": "]"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "premiere",
+  "name": "Adobe Premiere Pro",
+  "layer": "PREMIERE",
+  "category": "Видео",
+  "exe": [
+    "adobe premiere pro.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "SELECT",
+      "desc": "Выделение",
+      "combo": "V"
+    },
+    {
+      "label": "RAZOR",
+      "desc": "Лезвие",
+      "combo": "C"
+    },
+    {
+      "label": "CUT",
+      "desc": "Разрезать в точке",
+      "combo": "Ctrl+K"
+    },
+    {
+      "label": "RIPPLE<",
+      "desc": "Обрезать до начала",
+      "combo": "Q"
+    },
+    {
+      "label": "PLAY",
+      "desc": "Воспроизвести",
+      "combo": "Space"
+    },
+    {
+      "label": "RIPPLE>",
+      "desc": "Обрезать до конца",
+      "combo": "W"
+    },
+    {
+      "label": "IN",
+      "desc": "Точка входа",
+      "combo": "I"
+    },
+    {
+      "label": "MARKER",
+      "desc": "Маркер",
+      "combo": "M"
+    },
+    {
+      "label": "OUT",
+      "desc": "Точка выхода",
+      "combo": "O"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "FRAME-",
+      "desc": "Кадр назад",
+      "combo": "Left"
+    },
+    "press": {
+      "label": "PLAY",
+      "desc": "Воспроизвести",
+      "combo": "Space"
+    },
+    "right": {
+      "label": "FRAME+",
+      "desc": "Кадр вперёд",
+      "combo": "Right"
+    }
+  }
+}

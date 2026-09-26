@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "kicad-sch",
+  "name": "KiCad — схема",
+  "layer": "KICAD SCH",
+  "category": "Электроника",
+  "exe": [
+    "eeschema.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "WIRE",
+      "desc": "Провод",
+      "combo": "W"
+    },
+    {
+      "label": "SYMBOL",
+      "desc": "Добавить символ",
+      "combo": "A"
+    },
+    {
+      "label": "POWER",
+      "desc": "Питание",
+      "combo": "P"
+    },
+    {
+      "label": "LABEL",
+      "desc": "Метка",
+      "combo": "L"
+    },
+    {
+      "label": "MOVE",
+      "desc": "Переместить",
+      "combo": "M"
+    },
+    {
+      "label": "ROTATE",
+      "desc": "Повернуть",
+      "combo": "R"
+    },
+    {
+      "label": "DRAG",
+      "desc": "Тянуть с проводами",
+      "combo": "G"
+    },
+    {
+      "label": "PROPS",
+      "desc": "Свойства",
+      "combo": "E"
+    },
+    {
+      "label": "NOCONN",
+      "desc": "Не подключено",
+      "combo": "Q"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "UNDO",
+      "desc": "Отменить",
+      "combo": "Ctrl+Z"
+    },
+    "press": {
+      "label": "ESC",
+      "desc": "Отмена",
+      "combo": "Esc"
+    },
+    "right": {
+      "label": "REDO",
+      "desc": "Повторить",
+      "combo": "Ctrl+Y"
+    }
+  }
+}

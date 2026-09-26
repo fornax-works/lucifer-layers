@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "browser",
+  "name": "Браузер (Chrome, Edge, Brave)",
+  "layer": "BROWSER",
+  "category": "Интернет",
+  "exe": [
+    "chrome.exe",
+    "msedge.exe",
+    "brave.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "NEWTAB",
+      "desc": "Новая вкладка",
+      "combo": "Ctrl+T"
+    },
+    {
+      "label": "CLOSE",
+      "desc": "Закрыть вкладку",
+      "combo": "Ctrl+W"
+    },
+    {
+      "label": "REOPEN",
+      "desc": "Вернуть вкладку",
+      "combo": "Ctrl+Shift+T"
+    },
+    {
+      "label": "BACK",
+      "desc": "Назад",
+      "combo": "Alt+Left"
+    },
+    {
+      "label": "RELOAD",
+      "desc": "Обновить",
+      "combo": "F5"
+    },
+    {
+      "label": "FORWARD",
+      "desc": "Вперёд",
+      "combo": "Alt+Right"
+    },
+    {
+      "label": "ADDRESS",
+      "desc": "Адресная строка",
+      "combo": "Ctrl+L"
+    },
+    {
+      "label": "PRIVATE",
+      "desc": "Приватное окно",
+      "combo": "Ctrl+Shift+N"
+    },
+    {
+      "label": "BOOKMARK",
+      "desc": "В закладки",
+      "combo": "Ctrl+D"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+Shift+Tab"
+    },
+    "press": {
+      "label": "NEWTAB",
+      "desc": "Новая вкладка",
+      "combo": "Ctrl+T"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+Tab"
+    }
+  }
+}

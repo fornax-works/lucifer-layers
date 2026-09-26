@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "fusion360",
+  "name": "Autodesk Fusion",
+  "layer": "FUSION",
+  "category": "CAD",
+  "exe": [
+    "fusion360.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "LINE",
+      "desc": "Линия",
+      "combo": "L"
+    },
+    {
+      "label": "RECT",
+      "desc": "Прямоугольник",
+      "combo": "R"
+    },
+    {
+      "label": "CIRCLE",
+      "desc": "Окружность",
+      "combo": "C"
+    },
+    {
+      "label": "DIM",
+      "desc": "Размер",
+      "combo": "D"
+    },
+    {
+      "label": "EXTRUDE",
+      "desc": "Выдавливание",
+      "combo": "E"
+    },
+    {
+      "label": "TRIM",
+      "desc": "Обрезка",
+      "combo": "T"
+    },
+    {
+      "label": "FILLET",
+      "desc": "Скругление",
+      "combo": "F"
+    },
+    {
+      "label": "MOVE",
+      "desc": "Переместить",
+      "combo": "M"
+    },
+    {
+      "label": "SEARCH",
+      "desc": "Поиск команд",
+      "combo": "S"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "UNDO",
+      "desc": "Отменить",
+      "combo": "Ctrl+Z"
+    },
+    "press": {
+      "label": "ESC",
+      "desc": "Выйти из команды",
+      "combo": "Esc"
+    },
+    "right": {
+      "label": "REDO",
+      "desc": "Повторить",
+      "combo": "Ctrl+Y"
+    }
+  }
+}

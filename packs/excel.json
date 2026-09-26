@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "excel",
+  "name": "Microsoft Excel",
+  "layer": "EXCEL",
+  "category": "Офис",
+  "exe": [
+    "excel.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "SUM",
+      "desc": "Автосумма",
+      "combo": "Alt+="
+    },
+    {
+      "label": "FILTER",
+      "desc": "Фильтр",
+      "combo": "Ctrl+Shift+L"
+    },
+    {
+      "label": "FORMAT",
+      "desc": "Формат ячеек",
+      "combo": "Ctrl+1"
+    },
+    {
+      "label": "EDIT",
+      "desc": "Редактировать ячейку",
+      "combo": "F2"
+    },
+    {
+      "label": "DATE",
+      "desc": "Сегодняшняя дата",
+      "combo": "Ctrl+;"
+    },
+    {
+      "label": "MONEY",
+      "desc": "Денежный формат",
+      "combo": "Ctrl+Shift+4"
+    },
+    {
+      "label": "COLUMN",
+      "desc": "Выделить столбец",
+      "combo": "Ctrl+Space"
+    },
+    {
+      "label": "ROW",
+      "desc": "Выделить строку",
+      "combo": "Shift+Space"
+    },
+    {
+      "label": "UNDO",
+      "desc": "Отменить",
+      "combo": "Ctrl+Z"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "SHEET-",
+      "desc": "Лист назад",
+      "combo": "Ctrl+PageUp"
+    },
+    "press": {
+      "label": "EDIT",
+      "desc": "Редактировать",
+      "combo": "F2"
+    },
+    "right": {
+      "label": "SHEET+",
+      "desc": "Лист вперёд",
+      "combo": "Ctrl+PageDown"
+    }
+  }
+}

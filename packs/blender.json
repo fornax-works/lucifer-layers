@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "blender",
+  "name": "Blender",
+  "layer": "BLENDER",
+  "category": "3D",
+  "exe": [
+    "blender.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "GRAB",
+      "desc": "Переместить",
+      "combo": "G"
+    },
+    {
+      "label": "ROTATE",
+      "desc": "Повернуть",
+      "combo": "R"
+    },
+    {
+      "label": "SCALE",
+      "desc": "Масштаб",
+      "combo": "S"
+    },
+    {
+      "label": "EDIT",
+      "desc": "Режим редактирования",
+      "combo": "Tab"
+    },
+    {
+      "label": "EXTRUDE",
+      "desc": "Выдавить",
+      "combo": "E"
+    },
+    {
+      "label": "LOOPCUT",
+      "desc": "Петлевой разрез",
+      "combo": "Ctrl+R"
+    },
+    {
+      "label": "CAMERA",
+      "desc": "Вид из камеры",
+      "combo": "Num 0"
+    },
+    {
+      "label": "ADD",
+      "desc": "Добавить объект",
+      "combo": "Shift+A"
+    },
+    {
+      "label": "RENDER",
+      "desc": "Рендер кадра",
+      "combo": "F12"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "FRAME-",
+      "desc": "Кадр назад",
+      "combo": "Left"
+    },
+    "press": {
+      "label": "PLAY",
+      "desc": "Воспроизвести",
+      "combo": "Space"
+    },
+    "right": {
+      "label": "FRAME+",
+      "desc": "Кадр вперёд",
+      "combo": "Right"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+ "schema": 1,
+ "generated": "2026-09-26T21:06:38Z",
+ "packs": [
+  {
+   "id": "blender",
+   "name": "Blender",
+   "layer": "BLENDER",
+   "category": "3D",
+   "exe": [
+    "blender.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "a690bcec33107387eb7686989ced36e3b4303f6d891bceba3f9cd0be8854b9e4",
+   "size": 1454
+  },
+  {
+   "id": "browser",
+   "name": "Браузер (Chrome, Edge, Brave)",
+   "layer": "BROWSER",
+   "category": "Интернет",
+   "exe": [
+    "chrome.exe",
+    "msedge.exe",
+    "brave.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "980b1a331ffb47439e9ffcf2ed49b79d0532580292a54c191e7719b76d1a6ab8",
+   "size": 1599
+  },
+  {
+   "id": "discord",
+   "name": "Discord",
+   "layer": "DISCORD",
+   "category": "Общение",
+   "exe": [
+    "discord.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "e00d8c710e399946ecec669cf16e7e2f1d4f1625ca97134f61baebb1b84f4d7a",
+   "size": 1483
+  },
+  {
+   "id": "excel",
+   "name": "Microsoft Excel",
+   "layer": "EXCEL",
+   "category": "Офис",
+   "exe": [
+    "excel.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "ec019d8ba2208106d68abe22c3292e2b4a60b5559bdb4c3825996ba03c7ee077",
+   "size": 1523
+  },
+  {
+   "id": "figma",
+   "name": "Figma",
+   "layer": "FIGMA",
+   "category": "Дизайн",
+   "exe": [
+    "figma.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "05ff7ba1861f9fd4c5e0a92cb3914873f2dc69fe5a14b13b26c1884e37633efa",
+   "size": 1378
+  },
+  {
+   "id": "fusion360",
+   "name": "Autodesk Fusion",
+   "layer": "FUSION",
+   "category": "CAD",
+   "exe": [
+    "fusion360.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "18f3111c71e783bee899f63c8fdb01e2e957a97a1a3795630084428ae0260013",
+   "size": 1394
+  },
+  {
+   "id": "kicad-pcb",
+   "name": "KiCad — редактор плат",
+   "layer": "KICAD PCB",
+   "category": "Электроника",
+   "exe": [
+    "pcbnew.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "8f84dde7edbd41d37fd36a97628248a9b9db2b426c0d9e0be18dd3c3d0b9f23e",
+   "size": 1470
+  },
+  {
+   "id": "kicad-sch",
+   "name": "KiCad — схема",
+   "layer": "KICAD SCH",
+   "category": "Электроника",
+   "exe": [
+    "eeschema.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "0c000986682929188c61d35490bf685971facccc2582dd53c2e758aff700597f",
+   "size": 1412
+  },
+  {
+   "id": "photoshop",
+   "name": "Adobe Photoshop",
+   "layer": "PS",
+   "category": "Графика",
+   "exe": [
+    "photoshop.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "49ce181fe39656b01b70d706dd37ee22e3b57096ce86d59945761a659c358071",
+   "size": 1456
+  },
+  {
+   "id": "premiere",
+   "name": "Adobe Premiere Pro",
+   "layer": "PREMIERE",
+   "category": "Видео",
+   "exe": [
+    "adobe premiere pro.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "e70d6d80acc3be633e9b9214f19dcca5841a4dd5291917df12652cd4cc2f2a64",
+   "size": 1467
+  },
+  {
+   "id": "resolve",
+   "name": "DaVinci Resolve",
+   "layer": "RESOLVE",
+   "category": "Видео",
+   "exe": [
+    "resolve.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "4fa7568106d8e36e1a7307a84a5c449590f98c1f42c12a3bf4aebdcce3ce9658",
+   "size": 1452
+  },
+  {
+   "id": "vscode",
+   "name": "Visual Studio Code",
+   "layer": "VSCODE",
+   "category": "Код",
+   "exe": [
+    "code.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "b72e10bbfa147732d4fc09bcced2b6d6797485d8469092152dcaf8d8822e4a29",
+   "size": 1567
+  }
+ ]
+}

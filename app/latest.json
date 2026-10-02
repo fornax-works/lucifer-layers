@@ -1,0 +1,8 @@
+{
+ "version": "0.12.0",
+ "url": "https://github.com/fornax-works/lucifer-layers/releases/download/v0.12.0/Fornax-Lucifer-Setup-0.12.0.exe",
+ "sha256": "576d5a2cf5313cb98c305ee9cb0939026260bc4f338b273212fb8dea98cbbcf2",
+ "size": 8631612,
+ "notes": "Колесо мыши на энкодере (прокрутка, вбок, зум)\nКлавиша «Запустить»: программа, сайт, файл\nЗапись макроса, настройки в паде, автообновление",
+ "firmware": "0.12.0"
+}

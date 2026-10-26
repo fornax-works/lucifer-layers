@@ -1,7 +1,20 @@
 {
  "schema": 1,
- "generated": "2026-09-26T21:06:38Z",
+ "generated": "2026-10-26T19:10:23Z",
  "packs": [
+  {
+   "id": "arduino-ide",
+   "name": "Arduino IDE 2",
+   "layer": "ARDUINO",
+   "category": "Embedded",
+   "exe": [
+    "arduino ide.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "f9243b1c0d89a364e0d150718dd85bd0a5b9eb3158fd4d49219b6eabd5ca81d9",
+   "size": 1628
+  },
   {
    "id": "blender",
    "name": "Blender",
@@ -29,6 +42,19 @@
    "tested": false,
    "sha256": "980b1a331ffb47439e9ffcf2ed49b79d0532580292a54c191e7719b76d1a6ab8",
    "size": 1599
+  },
+  {
+   "id": "dbeaver",
+   "name": "DBeaver",
+   "layer": "DBEAVER",
+   "category": "Код",
+   "exe": [
+    "dbeaver.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "0a58999ef16951fb1ce86359cbea457c502701211e18909c1533b2282d88ead7",
+   "size": 1544
   },
   {
    "id": "discord",
@@ -83,6 +109,34 @@
    "size": 1394
   },
   {
+   "id": "jetbrains",
+   "name": "JetBrains IDE",
+   "layer": "JETBRAINS",
+   "category": "Код",
+   "exe": [
+    "idea64.exe",
+    "pycharm64.exe",
+    "clion64.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "5e691e3f497dd1e349f75f7b65612053929e4260af883a6004442fd29c9445f8",
+   "size": 1602
+  },
+  {
+   "id": "keil-uvision",
+   "name": "Keil uVision",
+   "layer": "KEIL",
+   "category": "Embedded",
+   "exe": [
+    "uv4.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "e2ba576b8fb3101e4fc48e5fb721e896ee54c091e12d6cd635ab47cf5329ab73",
+   "size": 1484
+  },
+  {
    "id": "kicad-pcb",
    "name": "KiCad — редактор плат",
    "layer": "KICAD PCB",
@@ -109,6 +163,45 @@
    "size": 1412
   },
   {
+   "id": "matlab",
+   "name": "MATLAB",
+   "layer": "MATLAB",
+   "category": "Инженерия",
+   "exe": [
+    "matlab.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "5b557d0a103d372b53aac451ae77e7209f8d82f0d9c89e1ac5a542046be0635a",
+   "size": 1582
+  },
+  {
+   "id": "notion",
+   "name": "Notion",
+   "layer": "NOTION",
+   "category": "Заметки",
+   "exe": [
+    "notion.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "ecf3df6d946ada62506fd67aab04dd86262031ae3dbc54db914c005401334323",
+   "size": 1493
+  },
+  {
+   "id": "obsidian",
+   "name": "Obsidian",
+   "layer": "OBSIDIAN",
+   "category": "Заметки",
+   "exe": [
+    "obsidian.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "c28438952331a1c71a47172ffbb2eddebc9e8029544ec13a05ad89d15c56ff45",
+   "size": 1578
+  },
+  {
    "id": "photoshop",
    "name": "Adobe Photoshop",
    "layer": "PS",
@@ -120,6 +213,19 @@
    "tested": false,
    "sha256": "49ce181fe39656b01b70d706dd37ee22e3b57096ce86d59945761a659c358071",
    "size": 1456
+  },
+  {
+   "id": "postman",
+   "name": "Postman",
+   "layer": "POSTMAN",
+   "category": "Код",
+   "exe": [
+    "postman.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "9bd91ebaaa593d36b6e8abe8c088fecd5382f19d566573d014ad2ebeca6b273e",
+   "size": 1540
   },
   {
    "id": "premiere",
@@ -146,6 +252,45 @@
    "tested": false,
    "sha256": "4fa7568106d8e36e1a7307a84a5c449590f98c1f42c12a3bf4aebdcce3ce9658",
    "size": 1452
+  },
+  {
+   "id": "solidworks",
+   "name": "SolidWorks",
+   "layer": "SOLIDWORKS",
+   "category": "CAD",
+   "exe": [
+    "sldworks.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "bf489f3c0ccd645b9baab4fbb6a17e9e6c7dac2afeb1ef46e5d4ee15548849cf",
+   "size": 1506
+  },
+  {
+   "id": "stm32cubeide",
+   "name": "STM32CubeIDE",
+   "layer": "STM32",
+   "category": "Embedded",
+   "exe": [
+    "stm32cubeide.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "ab85fe7aa0ad125739b9cfb237a6abb8aae3eb7b4a41a923a5247bb5ae639146",
+   "size": 1550
+  },
+  {
+   "id": "visualstudio",
+   "name": "Visual Studio",
+   "layer": "VSTUDIO",
+   "category": "Код",
+   "exe": [
+    "devenv.exe"
+   ],
+   "version": 1,
+   "tested": false,
+   "sha256": "06e992a54956261a8ac3f66e81eccd273f478eb27e97878bc5d3c13bf61e1763",
+   "size": 1619
   },
   {
    "id": "vscode",

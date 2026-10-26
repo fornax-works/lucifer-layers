@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "matlab",
+  "name": "MATLAB",
+  "layer": "MATLAB",
+  "category": "Инженерия",
+  "exe": [
+    "matlab.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "RUN",
+      "desc": "Запустить / продолжить",
+      "combo": "F5"
+    },
+    {
+      "label": "SECTION",
+      "desc": "Выполнить секцию",
+      "combo": "Ctrl+Enter"
+    },
+    {
+      "label": "SELECT",
+      "desc": "Выполнить выделенное",
+      "combo": "F9"
+    },
+    {
+      "label": "COMMENT",
+      "desc": "Закомментировать",
+      "combo": "Ctrl+R"
+    },
+    {
+      "label": "UNCOMM",
+      "desc": "Раскомментировать",
+      "combo": "Ctrl+T"
+    },
+    {
+      "label": "INDENT",
+      "desc": "Выровнять отступы",
+      "combo": "Ctrl+I"
+    },
+    {
+      "label": "BREAK",
+      "desc": "Точка останова",
+      "combo": "F12"
+    },
+    {
+      "label": "CMDWIN",
+      "desc": "В командное окно",
+      "combo": "Ctrl+0"
+    },
+    {
+      "label": "STOP",
+      "desc": "Прервать расчёт",
+      "combo": "Ctrl+C"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "OVER",
+      "desc": "Шаг с обходом",
+      "combo": "F10"
+    },
+    "press": {
+      "label": "RUN",
+      "desc": "Запустить / продолжить",
+      "combo": "F5"
+    },
+    "right": {
+      "label": "INTO",
+      "desc": "Шаг с заходом",
+      "combo": "F11"
+    }
+  }
+}

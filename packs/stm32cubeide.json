@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "stm32cubeide",
+  "name": "STM32CubeIDE",
+  "layer": "STM32",
+  "category": "Embedded",
+  "exe": [
+    "stm32cubeide.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "BUILD",
+      "desc": "Собрать проект",
+      "combo": "Ctrl+B"
+    },
+    {
+      "label": "DEBUG",
+      "desc": "Запустить отладку",
+      "combo": "F11"
+    },
+    {
+      "label": "RUN",
+      "desc": "Запустить без отладки",
+      "combo": "Ctrl+F11"
+    },
+    {
+      "label": "BREAK",
+      "desc": "Точка останова",
+      "combo": "Ctrl+Shift+B"
+    },
+    {
+      "label": "DECL",
+      "desc": "К объявлению",
+      "combo": "F3"
+    },
+    {
+      "label": "H/C",
+      "desc": "Заголовок / исходник",
+      "combo": "Ctrl+Tab"
+    },
+    {
+      "label": "FORMAT",
+      "desc": "Форматировать код",
+      "combo": "Ctrl+Shift+F"
+    },
+    {
+      "label": "COMMENT",
+      "desc": "Закомментировать",
+      "combo": "Ctrl+/"
+    },
+    {
+      "label": "STOP",
+      "desc": "Остановить",
+      "combo": "Ctrl+F2"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "OVER",
+      "desc": "Шаг с обходом",
+      "combo": "F6"
+    },
+    "press": {
+      "label": "GO",
+      "desc": "Продолжить",
+      "combo": "F8"
+    },
+    "right": {
+      "label": "INTO",
+      "desc": "Шаг с заходом",
+      "combo": "F5"
+    }
+  }
+}

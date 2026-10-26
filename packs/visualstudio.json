@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "visualstudio",
+  "name": "Visual Studio",
+  "layer": "VSTUDIO",
+  "category": "Код",
+  "exe": [
+    "devenv.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "GOTO",
+      "desc": "Перейти к… (файл, тип, символ)",
+      "combo": "Ctrl+,"
+    },
+    {
+      "label": "BUILD",
+      "desc": "Собрать решение",
+      "combo": "Ctrl+Shift+B"
+    },
+    {
+      "label": "SOLN",
+      "desc": "Обозреватель решений",
+      "combo": "Ctrl+Alt+L"
+    },
+    {
+      "label": "ATTACH",
+      "desc": "Присоединиться к процессу",
+      "combo": "Ctrl+Alt+P"
+    },
+    {
+      "label": "DEFN",
+      "desc": "К определению",
+      "combo": "F12"
+    },
+    {
+      "label": "REFS",
+      "desc": "Найти все ссылки",
+      "combo": "Shift+F12"
+    },
+    {
+      "label": "BPLIST",
+      "desc": "Окно точек останова",
+      "combo": "Ctrl+Alt+B"
+    },
+    {
+      "label": "BREAK",
+      "desc": "Точка останова",
+      "combo": "F9"
+    },
+    {
+      "label": "RUN",
+      "desc": "Запуск / продолжить",
+      "combo": "F5"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "OVER",
+      "desc": "Шаг с обходом",
+      "combo": "F10"
+    },
+    "press": {
+      "label": "STOP",
+      "desc": "Остановить отладку",
+      "combo": "Shift+F5"
+    },
+    "right": {
+      "label": "INTO",
+      "desc": "Шаг с заходом",
+      "combo": "F11"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "obsidian",
+  "name": "Obsidian",
+  "layer": "OBSIDIAN",
+  "category": "Заметки",
+  "exe": [
+    "obsidian.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "OPEN",
+      "desc": "Быстрый переход к заметке",
+      "combo": "Ctrl+O"
+    },
+    {
+      "label": "CMDS",
+      "desc": "Палитра команд",
+      "combo": "Ctrl+P"
+    },
+    {
+      "label": "NEW",
+      "desc": "Новая заметка",
+      "combo": "Ctrl+N"
+    },
+    {
+      "label": "MODE",
+      "desc": "Чтение / правка",
+      "combo": "Ctrl+E"
+    },
+    {
+      "label": "FIND",
+      "desc": "Поиск по хранилищу",
+      "combo": "Ctrl+Shift+F"
+    },
+    {
+      "label": "LINK",
+      "desc": "Вставить ссылку",
+      "combo": "Ctrl+K"
+    },
+    {
+      "label": "BACK",
+      "desc": "Назад",
+      "combo": "Ctrl+Alt+Left"
+    },
+    {
+      "label": "FWD",
+      "desc": "Вперёд",
+      "combo": "Ctrl+Alt+Right"
+    },
+    {
+      "label": "SAVE",
+      "desc": "Сохранить",
+      "combo": "Ctrl+S"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+Shift+Tab"
+    },
+    "press": {
+      "label": "OPEN",
+      "desc": "Быстрый переход к заметке",
+      "combo": "Ctrl+O"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+Tab"
+    }
+  }
+}

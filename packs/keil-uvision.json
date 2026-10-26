@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "keil-uvision",
+  "name": "Keil uVision",
+  "layer": "KEIL",
+  "category": "Embedded",
+  "exe": [
+    "uv4.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "BUILD",
+      "desc": "Собрать",
+      "combo": "F7"
+    },
+    {
+      "label": "FLASH",
+      "desc": "Загрузить во flash",
+      "combo": "F8"
+    },
+    {
+      "label": "DEBUG",
+      "desc": "Вход / выход из отладки",
+      "combo": "Ctrl+F5"
+    },
+    {
+      "label": "RUN",
+      "desc": "Запуск",
+      "combo": "F5"
+    },
+    {
+      "label": "STOP",
+      "desc": "Остановить",
+      "combo": "Esc"
+    },
+    {
+      "label": "BREAK",
+      "desc": "Точка останова",
+      "combo": "F9"
+    },
+    {
+      "label": "STEP",
+      "desc": "Шаг с заходом",
+      "combo": "F11"
+    },
+    {
+      "label": "OVER",
+      "desc": "Шаг с обходом",
+      "combo": "F10"
+    },
+    {
+      "label": "OUT",
+      "desc": "Выход из функции",
+      "combo": "Ctrl+F11"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+Shift+Tab"
+    },
+    "press": {
+      "label": "RUN",
+      "desc": "Запуск",
+      "combo": "F5"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+Tab"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "postman",
+  "name": "Postman",
+  "layer": "POSTMAN",
+  "category": "Код",
+  "exe": [
+    "postman.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "SEND",
+      "desc": "Отправить запрос",
+      "combo": "Ctrl+Enter"
+    },
+    {
+      "label": "SAVE",
+      "desc": "Сохранить",
+      "combo": "Ctrl+S"
+    },
+    {
+      "label": "NEW",
+      "desc": "Новый запрос",
+      "combo": "Ctrl+N"
+    },
+    {
+      "label": "DUP",
+      "desc": "Дублировать запрос",
+      "combo": "Ctrl+D"
+    },
+    {
+      "label": "CONSOLE",
+      "desc": "Консоль",
+      "combo": "Ctrl+Alt+C"
+    },
+    {
+      "label": "SIDEBAR",
+      "desc": "Боковая панель",
+      "combo": "Ctrl+\\"
+    },
+    {
+      "label": "CLOSE",
+      "desc": "Закрыть вкладку",
+      "combo": "Ctrl+W"
+    },
+    {
+      "label": "FIND",
+      "desc": "Поиск",
+      "combo": "Ctrl+F"
+    },
+    {
+      "label": "SEARCH",
+      "desc": "Глобальный поиск",
+      "combo": "Ctrl+K"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+Shift+Tab"
+    },
+    "press": {
+      "label": "SEND",
+      "desc": "Отправить запрос",
+      "combo": "Ctrl+Enter"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+Tab"
+    }
+  }
+}

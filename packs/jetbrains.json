@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "id": "jetbrains",
+  "name": "JetBrains IDE",
+  "layer": "JETBRAINS",
+  "category": "Код",
+  "exe": [
+    "idea64.exe",
+    "pycharm64.exe",
+    "clion64.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "ACTION",
+      "desc": "Найти действие",
+      "combo": "Ctrl+Shift+A"
+    },
+    {
+      "label": "CLASS",
+      "desc": "Перейти к классу",
+      "combo": "Ctrl+N"
+    },
+    {
+      "label": "TERM",
+      "desc": "Терминал",
+      "combo": "Alt+F12"
+    },
+    {
+      "label": "COMMENT",
+      "desc": "Закомментировать",
+      "combo": "Ctrl+/"
+    },
+    {
+      "label": "RENAME",
+      "desc": "Переименовать",
+      "combo": "Shift+F6"
+    },
+    {
+      "label": "DECL",
+      "desc": "К объявлению",
+      "combo": "Ctrl+B"
+    },
+    {
+      "label": "FORMAT",
+      "desc": "Форматировать код",
+      "combo": "Ctrl+Alt+L"
+    },
+    {
+      "label": "FIX",
+      "desc": "Быстрое исправление",
+      "combo": "Alt+Enter"
+    },
+    {
+      "label": "RUN",
+      "desc": "Запустить",
+      "combo": "Shift+F10"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "SEL-",
+      "desc": "Сузить выделение",
+      "combo": "Ctrl+Shift+W"
+    },
+    "press": {
+      "label": "DEBUG",
+      "desc": "Отладка",
+      "combo": "Shift+F9"
+    },
+    "right": {
+      "label": "SEL+",
+      "desc": "Расширить выделение",
+      "combo": "Ctrl+W"
+    }
+  }
+}

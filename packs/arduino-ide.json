@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "arduino-ide",
+  "name": "Arduino IDE 2",
+  "layer": "ARDUINO",
+  "category": "Embedded",
+  "exe": [
+    "arduino ide.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "VERIFY",
+      "desc": "Проверить / скомпилировать",
+      "combo": "Ctrl+R"
+    },
+    {
+      "label": "UPLOAD",
+      "desc": "Загрузить в плату",
+      "combo": "Ctrl+U"
+    },
+    {
+      "label": "MONITOR",
+      "desc": "Монитор порта",
+      "combo": "Ctrl+Shift+M"
+    },
+    {
+      "label": "PLOTTER",
+      "desc": "Плоттер",
+      "combo": "Ctrl+Shift+L"
+    },
+    {
+      "label": "BOARD",
+      "desc": "Менеджер плат",
+      "combo": "Ctrl+Shift+B"
+    },
+    {
+      "label": "LIBS",
+      "desc": "Менеджер библиотек",
+      "combo": "Ctrl+Shift+I"
+    },
+    {
+      "label": "FORMAT",
+      "desc": "Автоформат",
+      "combo": "Ctrl+T"
+    },
+    {
+      "label": "COMMENT",
+      "desc": "Закомментировать",
+      "combo": "Ctrl+/"
+    },
+    {
+      "label": "SAVE",
+      "desc": "Сохранить",
+      "combo": "Ctrl+S"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+Shift+Tab"
+    },
+    "press": {
+      "label": "VERIFY",
+      "desc": "Проверить / скомпилировать",
+      "combo": "Ctrl+R"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+Tab"
+    }
+  }
+}

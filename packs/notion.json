@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "notion",
+  "name": "Notion",
+  "layer": "NOTION",
+  "category": "Заметки",
+  "exe": [
+    "notion.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "FIND",
+      "desc": "Поиск / переход",
+      "combo": "Ctrl+K"
+    },
+    {
+      "label": "NEW",
+      "desc": "Новая страница",
+      "combo": "Ctrl+N"
+    },
+    {
+      "label": "CMDS",
+      "desc": "Меню команд",
+      "combo": "Ctrl+/"
+    },
+    {
+      "label": "BACK",
+      "desc": "Назад",
+      "combo": "Ctrl+["
+    },
+    {
+      "label": "FWD",
+      "desc": "Вперёд",
+      "combo": "Ctrl+]"
+    },
+    {
+      "label": "CODE",
+      "desc": "Код в строке",
+      "combo": "Ctrl+E"
+    },
+    {
+      "label": "UP",
+      "desc": "Блок вверх",
+      "combo": "Ctrl+Shift+Up"
+    },
+    {
+      "label": "DOWN",
+      "desc": "Блок вниз",
+      "combo": "Ctrl+Shift+Down"
+    },
+    {
+      "label": "H1",
+      "desc": "Заголовок 1",
+      "combo": "Ctrl+Shift+1"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "TAB-",
+      "desc": "Предыдущая вкладка",
+      "combo": "Ctrl+Shift+Tab"
+    },
+    "press": {
+      "label": "FIND",
+      "desc": "Поиск / переход",
+      "combo": "Ctrl+K"
+    },
+    "right": {
+      "label": "TAB+",
+      "desc": "Следующая вкладка",
+      "combo": "Ctrl+Tab"
+    }
+  }
+}

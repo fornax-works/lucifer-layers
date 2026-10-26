@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "solidworks",
+  "name": "SolidWorks",
+  "layer": "SOLIDWORKS",
+  "category": "CAD",
+  "exe": [
+    "sldworks.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "SHORTCUT",
+      "desc": "Панель быстрого доступа",
+      "combo": "S"
+    },
+    {
+      "label": "REBUILD",
+      "desc": "Перестроить",
+      "combo": "Ctrl+B"
+    },
+    {
+      "label": "FORCE",
+      "desc": "Перестроить принудительно",
+      "combo": "Ctrl+Q"
+    },
+    {
+      "label": "FIT",
+      "desc": "Вписать в окно",
+      "combo": "F"
+    },
+    {
+      "label": "NORMAL",
+      "desc": "По нормали к грани",
+      "combo": "Ctrl+8"
+    },
+    {
+      "label": "ISO",
+      "desc": "Изометрия",
+      "combo": "Ctrl+7"
+    },
+    {
+      "label": "FRONT",
+      "desc": "Вид спереди",
+      "combo": "Ctrl+1"
+    },
+    {
+      "label": "TOP",
+      "desc": "Вид сверху",
+      "combo": "Ctrl+5"
+    },
+    {
+      "label": "REPEAT",
+      "desc": "Повторить команду",
+      "combo": "Enter"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "ZOOM-",
+      "desc": "Отдалить",
+      "combo": "Z"
+    },
+    "press": {
+      "label": "ESC",
+      "desc": "Отмена",
+      "combo": "Esc"
+    },
+    "right": {
+      "label": "ZOOM+",
+      "desc": "Приблизить",
+      "combo": "Shift+Z"
+    }
+  }
+}

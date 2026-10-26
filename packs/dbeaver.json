@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "dbeaver",
+  "name": "DBeaver",
+  "layer": "DBEAVER",
+  "category": "Код",
+  "exe": [
+    "dbeaver.exe"
+  ],
+  "version": 1,
+  "author": "Lucifer",
+  "tested": false,
+  "keys": [
+    {
+      "label": "RUN",
+      "desc": "Выполнить запрос",
+      "combo": "Ctrl+Enter"
+    },
+    {
+      "label": "SCRIPT",
+      "desc": "Выполнить скрипт",
+      "combo": "Alt+X"
+    },
+    {
+      "label": "EXPLAIN",
+      "desc": "План запроса",
+      "combo": "Ctrl+Shift+E"
+    },
+    {
+      "label": "FORMAT",
+      "desc": "Форматировать SQL",
+      "combo": "Ctrl+Shift+F"
+    },
+    {
+      "label": "COMMENT",
+      "desc": "Закомментировать",
+      "combo": "Ctrl+/"
+    },
+    {
+      "label": "NEW",
+      "desc": "Новый скрипт",
+      "combo": "Ctrl+]"
+    },
+    {
+      "label": "REFRESH",
+      "desc": "Обновить",
+      "combo": "F5"
+    },
+    {
+      "label": "COMPLETE",
+      "desc": "Автодополнение",
+      "combo": "Ctrl+Space"
+    },
+    {
+      "label": "EDIT",
+      "desc": "Открыть объект",
+      "combo": "F4"
+    }
+  ],
+  "encoder": {
+    "left": {
+      "label": "UP",
+      "desc": "Вверх по строкам",
+      "combo": "Up"
+    },
+    "press": {
+      "label": "RUN",
+      "desc": "Выполнить запрос",
+      "combo": "Ctrl+Enter"
+    },
+    "right": {
+      "label": "DOWN",
+      "desc": "Вниз по строкам",
+      "combo": "Down"
+    }
+  }
+}
